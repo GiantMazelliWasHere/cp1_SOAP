@@ -1,1 +1,5 @@
-# cp1_SOAP
+# Integrantes:
+- Edson Leonardo;
+- Eduardo Mazelli
+- Lucas Masaki
+- Pedro Henrique Assunção
