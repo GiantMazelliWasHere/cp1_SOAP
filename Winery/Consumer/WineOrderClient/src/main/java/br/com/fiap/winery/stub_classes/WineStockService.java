@@ -22,16 +22,6 @@ public interface WineStockService {
 
     /**
      * 
-     * @return
-     *     returns java.lang.String
-     */
-    @WebMethod
-    @WebResult(partName = "return")
-    @Action(input = "http://winery.fiap.com.br/WineStockService/getMenuRequest", output = "http://winery.fiap.com.br/WineStockService/getMenuResponse")
-    public String getMenu();
-
-    /**
-     * 
      * @param arg0
      * @param arg1
      * @return
@@ -45,5 +35,15 @@ public interface WineStockService {
         String arg0,
         @WebParam(name = "arg1", partName = "arg1")
         int arg1);
+
+    /**
+     * 
+     * @return
+     *     returns java.lang.String
+     */
+    @WebMethod
+    @WebResult(partName = "return")
+    @Action(input = "http://winery.fiap.com.br/WineStockService/getMenuRequest", output = "http://winery.fiap.com.br/WineStockService/getMenuResponse")
+    public String getMenu();
 
 }
