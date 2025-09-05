@@ -1,5 +1,5 @@
 # Integrantes:
 - Edson Leonardo;
-- Eduardo Mazelli
-- Lucas Masaki
-- Pedro Henrique Assunção
+- Eduardo Mazelli;
+- Lucas Masaki;
+- Pedro Henrique Assunção.
